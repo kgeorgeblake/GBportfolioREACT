@@ -1,5 +1,6 @@
 import React,{ Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import resume from "../assets/GB.pdf"
 
 class Resume extends Component {
     render () {
@@ -9,10 +10,12 @@ class Resume extends Component {
                 <Cell col={12}>
              
                 <div className="banner-text"/>
+                <a href={resume} target="_blank">
                 <h1>Resume 
-                    
-                </h1>
+             
 
+                </h1>
+                </a>
                 <hr/>
 
                   <p>CWRU Coding Boot Camp, Full Stack Summer 2020 HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Java, Node.js, Database Theory, Bookshelf.js, MongoDB, MySQL, Command Line, Git. </p>
